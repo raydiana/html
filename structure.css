@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.structure-html{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.structure-html>div{
+    padding: 40px;
+}
+.header{
+    grid-column: 1 / span2;
+    text-align: center;
+    background-color: coral;
+}
+.sidebar{
+    background-color: darkgreen;
+}
+.content{
+    background-color: darkred;
+    grid-template-columns: 70%;
+}
+.footer{
+    grid-column: 1 / span2;
+    background-color: darkslateblue;
+}
